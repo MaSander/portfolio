@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: prosto one;
+}
+
+
+header {
+    background-image: url("../imagens/cilculo_luzes_E.jpg");
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+}
+
+.lktopo {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+.ectopo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+    font-weight: 900;
+}
+
+.ectopo h1 {
+    text-align: center;
+    font-size: 4.1em;
+}
+
+/*começo do conteudo*/
+main {
+    background-color: #131017;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.introducao {
+    border-radius: 10px;
+    background-color: white;
+    max-width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*experiencias*/
+.experiencias {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+}
+
+.experiencias h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.alinhar_ul {
+   display: flex;
+ justify-content: center;
+}
+
+.experiencias ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.experiencias ul li {
+    display: flex;
+    text-align: left;
+}
+
+/*formacao*/
+.formacoes {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 80px;
+}
+
+.formacoes h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.formacoes ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px
+}
+
+/*contatos*/
+.contato {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+}
+
+.contato h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cont_bar {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5px;
+}
+
+
+/*trabalhos*/
+
+.trabalhos {
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 45vh;
+    width: 50%;
+}
+
+.bloco_trab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#bloco {
+    border-radius: 10px;
+    background-color: green;
+}
+
+.pizzaria {
+    background-image: url("../imagens/pizza\ layout.jpg");
+    background-size: cover;
+    background-position: left;
+    width: 90%;
+    height: 69%;
+}
+
+/*roda pe*/
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/*responsividade*/
+@media screen and (max-width: 600px) {
+    .introducao {
+        width: 90%;
+    }
+
+    .ectopo h1 {
+        font-size: 3em;
+    }
+
+    .experiencias {
+        width: 90%;
+    }
+
+    .formacoes {
+        width: 90%;
+    }
+
+    .contato {
+        width: 90%;
+    }
+
+    .cont_bar {
+        flex-direction: column;
+        font-size: 1em;
+    }
+}
