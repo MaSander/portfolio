@@ -6,92 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/bases.css">
+    <link rel="stylesheet" href="estilo/experiencia.css">
+    <link rel="stylesheet" href="estilo/contato.css">
+    <link rel="stylesheet" href="estilo/formacao.css">
+    <link rel="stylesheet" href="estilo/trabalhos.css">
     <link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
     <title>Curriculo Marcelo S.</title>
 </head>
 
 <body>
-
+    <!-- topo -->
     <header>
 
-        <div class="lktopo">
-            <a target="_blank" href="https://br.pinterest.com/masander11/">
-                <img src="imagens/pinterest.png" alt="link do github">
-            </a>
+        <!-- navegador -->
+        <ul class="cabecalho flex-container">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Formação</a></li>
+            <li><a href="#">Trabalhos</a></li>
+        </ul>
 
-            <a target="_blank" href="https://github.com/MaSander?tab=repositories">
-                <img src="imagens/github.png" alt="link do pinterst">
-            </a>
+        <!-- banner -->
+        <div class="banner flex-container">
 
-        </div>
+            <div class="retrato">
+                <img src="imagens/imagem_linkedIn.jpg" alt="">
+            </div>
 
-        <div class="ectopo">
-            <h1>Marcelo Sander</h1>
-            <p>Web designer</p>
-            <p>Meu curriculo online</p>
+            <div class="text-topo">
+                <h1>Marcelo Sander</h1>
+                <p>Web designer</p>
+                <p>Meu curriculo online</p>
+            </div>
+
+            <div class="link_topo flex-container">
+                <a target="_blank" href="https://br.pinterest.com/masander11/">
+                    <img src="imagens/pinterest.png" alt="link do github">
+                </a>
+
+                <a target="_blank" href="https://github.com/MaSander?tab=repositories">
+                    <img src="imagens/github.png" alt="link do pinterst">
+                </a>
+
+            </div>
         </div>
 
     </header>
 
-    <main>
-
-        <div class="introducao">
-            <p>Ola meu nome é Marcelo Sander Mariano Guimarães, tenho 16 anos, e curso o segundo ano do ensino medio, tambem
-                faço tecnico no senai.</p>
-        </div>
-
-        <section class="experiencias">
+    <main class="flex-container">
+        <!-- habilidades -->
+        <section id="bloco" class="experiencias flex-container">
 
             <h2>experiencias</h2>
 
-            <div class="alinhar_ul">
-                <ul>
-                    <li>
-                        70% - HTML
-                    </li>
-                    <li>
-                        30% - CSS
-                    </li>
-                    <li>
-                        20% - Photoshop
-                    </li>
-                    <li>
-                        30% - Illustrator
-                    </li>
-                    <li>
-                        40% - Marvel app
-                    </li>
-                    <li>
-                        100% - metodologia scrum
-                    </li>
-                </ul>
+            <div class="habilidades flex-container">
+
+                <div id="Exp" class="flex-container Exp_Html">
+                    <div class="brr-skw">
+                        <div class="brr-fnd-html"></div>
+                    </div>
+                    <h3>- 70% - HTML</h3>
+                </div>
+
+                <div id="Exp" class="flex-container Exp_Html">
+                    <div class="brr-skw">
+                        <div class="brr-fnd-css"></div>
+                    </div>
+                    <h3>- 30% - css</h3>
+                </div>
+
+                <div id="Exp" class="flex-container Exp_Html">
+                    <div class="brr-skw">
+                        <div class="brr-fnd-Csharp"></div>
+                    </div>
+                    <h3>- 20% - C#</h3>
+                </div>
+
+                <div id="Exp" class="flex-container Exp_Html">
+                    <div class="brr-skw">
+                        <div class="brr-fnd-PhotoShop"></div>
+                    </div>
+                    <h3>- 30% - Photoshop</h3>
+                </div>
+
+                <div id="Exp" class="flex-container Exp_Html">
+                    <div class="brr-skw">
+                        <div class="brr-fnd-Illustrator"></div>
+                    </div>
+                    <h3>- 50% - HTML</h3>
+                </div>
+
+                <div id="Exp" class="flex-container Exp_Html">
+                    <h3>Metodologias ageis - (scrum)</h3>
+                </div>
+
+                <!-- marvel app; metodologias ageis; illustraror; photoshop; html; css; c#; -->
             </div>
 
         </section>
-
-        <section class="formacoes">
-            <h2>Minha Formação</h2>
+        <!-- formaçoes proficionais -->
+        <section id="bloco" class="formacoes flex-container">
+            <h2>Formações</h2>
             <ul>
-                <li>Tecnico de desenvolvimento de sistemas, no senai</li>
+                <li>Tecnico de desenvolvimento de sistemas (senai)</li>
+                <li>Competência transversal-Segurança no trabalho</li>
+                <li>Competência transversal-Educação ambiental</li>
+                <li>Desvendando a Blockchain</li>
             </ul>
         </section>
-
-        <section class="contato">
+        <!-- contato -->
+        <section id="bloco" class="contato flex-container">
             <h2>Contato</h2>
-            <div class="cont_bar">
+            <div class="cont_bar flex-container">
                 <img src="imagens/email.png" alt="link do email">
                 <p>ma.sander11@gmail.com</p>
             </div>
         </section>
-
-        <section class="trabalhos">
+        <!-- trabalhos -->
+        <section id="bloco" class="trabalhos flex-container">
             <h2>Meus trabalhos</h2>
-            <div class="bloco_trab">
-                <div id="bloco" class="pizzaria"></div>
-                <p>Banner feito no photoshop.</p>
             </div>
         </section>
-
     </main>
 
     <footer>
