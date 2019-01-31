@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.banner{
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('/imagens/texto_programa.png'); */
+    background-color: aqua;
+}
+
+#banner{
+    background-image: url('/imagens/texto_programa.png');
+}
+
+.cabecalho{
+    width: 100%;
+    height:  20px;
+    list-style: none;
+    justify-content: space-around;
+}
+.cabecalho li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.teste_img{
+    width: 100px;
+    height: 100px;
+}
