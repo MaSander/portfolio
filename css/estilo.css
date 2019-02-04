@@ -2,23 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Ubuntu;
 }
 
 .flex-container{
     display: flex;
 }
 
+h1 *{
+    font-size: 18px;
+}
+
+.h2_vertical *{
+    height: 20px;
+    text-align: center;
+    text-shadow: -3px 2px #2626267a
+}
+
+/* body {
+    background-color: #8C08D4;
+} */
+
+/* ------------------------------------------------- */
+
 .banner{
     width: 100%;
     height: 20vh;
     align-items: center;
     justify-content: center;
-    /* background-image: url('/imagens/texto_programa.png'); */
-    background-color: aqua;
+    background-color: blue;
+    color:  white;
+}
+
+.foto_perfil {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-image: url('../imagens/cilculo_luzes_E.jpg');
+    background-size: cover;
 }
 
 #banner{
-    background-image: url('/imagens/texto_programa.png');
+    background-image: url('../imagens/texto_programa.png');
+    background-size: cover;
 }
 
 .cabecalho{
@@ -26,14 +52,111 @@
     height:  20px;
     list-style: none;
     justify-content: space-around;
+    background-color: #141414;
 }
-.cabecalho li a{
-    color: black;
-    font-size: 18px;
+.cabecalho li a {
+    color: white;
     text-decoration: none;
 }
 
-.teste_img{
-    width: 100px;
-    height: 100px;
+#icones_link {
+    width: auto;
+    height: auto;
+    right: 0;
+    top: 0;
+}
+
+
+#icones_link  *{
+    font-size: 40px;
+}
+
+/* ---------------------------------------------------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.formacoes {
+    background-color:  yellowgreen;
+}
+
+.contato {
+    background-color: violet
+}
+
+.trabalhos {
+    background-color: khaki
+}
+
+/* ----------------------------------------------------- */
+
+.experiencias {
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: #0f062e;
+    color: azure;
+}
+
+#Dados_Exp {
+    justify-content: space-around;
+    width: 90%;
+}
+
+#dado_Exp{
+    height: 170px;
+    width:  170px;
+    display: flex;
+    background-color: black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Exp {
+    display: none;
+}
+
+/* ----------------------------------------------------- */
+
+
+.formacoes {
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 32vh;
+}
+
+.frmc {
+    height: 80%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frmc  li {
+    font-size: 1.2em; 
+}
+
+/* ----------------------------------------------------- */
+
+.contato {
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----------------------------------------------------- */
+
+footer {
+    background-color: darkmagenta;
+}
+
+
+.teste_v {
+    width: 3px;
+    height: 26px;
 }
