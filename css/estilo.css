@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Ubuntu;
+    z-index: 2;
 }
 
 .flex-container{
@@ -96,8 +97,12 @@ main {
     padding: 20px;
     align-items: center;
     justify-content: space-between;
-    background: #0f062e;
+    background: azure;
     color: azure;
+}
+
+.experiencias h2{
+    color: black;
 }
 
 #Dados_Exp {
@@ -118,6 +123,14 @@ main {
 
 #Exp {
     display: none;
+}
+
+.textura_fundo{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    background-color: turquoise;
+    transform: skewX(30deg)
 }
 
 /* ----------------------------------------------------- */
