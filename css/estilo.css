@@ -26,13 +26,20 @@ h1 *{
 
 /* ------------------------------------------------- */
 
-.banner{
+#cabecalho{
+    background-image: url('../imagens/texto_programa.png');
+    background-size: cover;
     width: 100%;
     height: 100vh;
+}
+
+.banner{
+    height: 100%;
     align-items: center;
     justify-content: center;
-    background-color: blue;
     color:  white;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.431);
 }
 
 .foto_perfil {
@@ -41,24 +48,6 @@ h1 *{
     border-radius: 50%;
     background-image: url('https://media.licdn.com/dms/image/C4D03AQEWdE6VISH7Tg/profile-displayphoto-shrink_200_200/0?e=1559779200&v=beta&t=ECmJN5wHI-nGsUtCG8xTYVrUAsLZ0snvLk8qM2Y_-yU');
     background-size: cover;
-}
-
-#banner{
-    background-image: url('../imagens/texto_programa.jpg');
-    background-size: cover;
-    justify-content: space-evenly;
-}
-
-.cabecalho{
-    width: 100%;
-    height:  20px;
-    list-style: none;
-    justify-content: space-around;
-    background-color: #000000;
-}
-.cabecalho li a {
-    color: white;
-    text-decoration: none;
 }
 
 .icones_link_bnr .fab{
@@ -74,13 +63,40 @@ h1 *{
     margin-bottom: 5px;
 }
 
-.botaoDoBanner{
+/* .botaoDoBanner{
     position: absolute;
     top: 95vh;
+} */
+
+.botaoDoBanner{
+    bottom: 10px;
+    cursor: pointer;
+    color: whitesmoke;
 }
 
 #fasArrowDown{
     display: none;
+}
+
+.navegador{
+    width: 100%;
+    height:  20px;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #262626;
+}
+.navegador li a {
+    color: white;
+    text-decoration: none;
+}
+
+.resumo {
+    width: 500px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 2em;
+    color: #ffffff;
+    /* background-color: rgba(245, 245, 245, 0.781); */
 }
 
 /* ---------------------------------------------------- */
