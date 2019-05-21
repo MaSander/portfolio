@@ -14,23 +14,13 @@ h1 *{
     font-size: 18px;
 }
 
-.h2_vertical *{
-    height: 27px;
-    text-align: center;
-    text-shadow: -3px 2px #2626267a
-}
-
-/* body {
-    background-color: rgb(197, 197, 197);
-} */
-
 /* ------------------------------------------------- */
 
 #cabecalho{
-    background-image: url('../imagens/texto_programa.png');
+    background-image: url('../imagens/setupCoding.jpeg');
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 104vh;
 }
 
 .banner{
@@ -50,6 +40,12 @@ h1 *{
     background-size: cover;
 }
 
+.foto_nome{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .icones_link_bnr .fab{
     font-size: 40px;
     color: white;
@@ -63,11 +59,6 @@ h1 *{
     margin-bottom: 5px;
 }
 
-/* .botaoDoBanner{
-    position: absolute;
-    top: 95vh;
-} */
-
 .botaoDoBanner{
     bottom: 10px;
     cursor: pointer;
@@ -78,32 +69,20 @@ h1 *{
     display: none;
 }
 
-.navegador{
-    width: 100%;
-    height:  20px;
-    list-style: none;
-    justify-content: space-around;
-    background-color: #262626;
-}
-.navegador li a {
-    color: white;
-    text-decoration: none;
-}
-
 .resumo {
     width: 500px;
     padding: 10px;
     border-radius: 7px;
     font-size: 2em;
     color: #ffffff;
-    /* background-color: rgba(245, 245, 245, 0.781); */
 }
 
 /* ---------------------------------------------------- */
 
 #bloco{
-    margin: 3px;
-    border-radius: 10px;
+    /* margin: 3px; */
+    /* border-radius: 0 10px 10px 10px; */
+    height: 55vh;
 }
 
 /* ---------------------------------------------------- */
@@ -111,11 +90,7 @@ h1 *{
 main {
     display: flex;
     flex-direction: column;
-}
-
-.formacoes {
-    background-color:  #141414;
-    color: white;
+    background-color: white;
 }
 
 .trabalhos {
@@ -126,16 +101,24 @@ main {
 
 /* ----------------------------------------------------- */
 
+.div_externa_experiencia{
+    /* margin: 3px; */
+    transform: translateY(-28px);
+}
+
+.titulo_experiencia{
+    background-color: #329bf7;
+    width: 242px;
+    border-radius: 10px 10px 0 0;
+    padding: 0px 0px 0px 40px;
+}
+
 .experiencias {
     padding: 20px;
     align-items: center;
     justify-content: space-between;
     background: #329bf7;
     color: azure;
-}
-
-.experiencias h2{
-    color: black;
 }
 
 #Dados_Exp {
@@ -150,37 +133,50 @@ main {
 }
 
 .dado_Exp{
-    height: 170px;
-    width:  170px;
+    height: 200px;
+    width:  200px;
     display: flex;
     background-color: black;
-    border-radius: 50%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    transition: 1.5s;
+    transform: perspective(300);
 }
 
 #Exp {
     display: none;
 }
 
-.textura_fundo{
-    position: absolute;
-    width: 1303px;
-    height: 100px;
-    background-color: #430572;
-    transform: skewX(20deg);
-    margin-left: 198px;
+.dado_Exp:hover {
+    /* background-color: yellow; */
+    transform: rotateY(180deg);
 }
 
 /* ----------------------------------------------------- */
 
+.titulo_formacao{
+    background-color: #141414;
+    width: 242px;
+    border-radius: 10px 10px 0 0;
+    padding: 0px 0px 0px 55px;
+    color: white;
+}
+
+.div_externa_formacao{
+    transform: translateY(-56px);
+}
 
 .formacoes {
     padding: 20px;
     align-items: center;
     justify-content: space-between;
     height: 32vh;
+    padding: 40px 0px 65px 50px;
+    background-color:  #141414;
+    color: white;
 }
 
 .frmc {
@@ -191,10 +187,21 @@ main {
 }
 
 .frmc  li {
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 /* ----------------------------------------------------- */
+
+.div_externa_contato{
+    transform: translateY(-84px);
+}
+
+.titulo_contato{
+    background-color: #329bf7;
+    width: 242px;
+    border-radius: 10px 10px 0 0;
+    padding: 0px 0px 0px 70px;
+}
 
 .contato {
     background-color: #329bf7;
@@ -228,10 +235,4 @@ main {
 footer {
     background-color: #430572;
     display: none;
-}
-
-
-.teste_v {
-    width: 3px;
-    height: 26px;
 }
