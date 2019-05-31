@@ -64,7 +64,7 @@ h1 *{
 
 .resumo {
     width: 500px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 7px;
     font-size: 2em;
     color: #ffffff;
@@ -94,7 +94,7 @@ main {
 }
 
 .titulo_experiencia{
-    background-color: #329bf7;
+    background-color: #8410E6;
     width: 242px;
     border-radius: 10px 10px 0 0;
     padding: 0px 0px 0px 40px;
@@ -104,7 +104,7 @@ main {
     padding: 20px;
     align-items: center;
     justify-content: center;
-    background: #329bf7;
+    background: #8410E6;
     color: azure;
 }
 
@@ -129,7 +129,7 @@ main {
     flex-direction: column;
     -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
     clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-    transition: 1.5s;
+    transition: 0.3s;
     transform: perspective(300);
 }
 
@@ -138,8 +138,11 @@ main {
 }
 
 .dado_Exp:hover {
-    /* background-color: yellow; */
-    transform: rotateY(180deg);
+    /* background-color: #1D099C; */
+    /* EC00AB Rosa choque */ 
+    cursor: pointer;
+    height: 225px;
+    width: 225px;
 }
 
 /* - FORMAÇÂO ----------------------------------------------------- */
