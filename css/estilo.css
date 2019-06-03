@@ -94,7 +94,7 @@ main {
 }
 
 .titulo_experiencia{
-    background-color: #8410E6;
+    background-color: #e4e4e4;
     width: 242px;
     border-radius: 10px 10px 0 0;
     padding: 0px 0px 0px 40px;
@@ -104,7 +104,7 @@ main {
     padding: 20px;
     align-items: center;
     justify-content: center;
-    background: #8410E6;
+    background: #e4e4e4;
     color: azure;
 }
 
@@ -187,14 +187,14 @@ main {
 }
 
 .titulo_contato{
-    background-color: #329bf7;
+    background-color: #e4e4e4;
     width: 242px;
     border-radius: 10px 10px 0 0;
     padding: 0px 0px 0px 70px;
 }
 
 .contato {
-    background-color: #329bf7;
+    background-color: #e4e4e4;
     color: black;
     padding: 20px;
     align-items: center;
