@@ -58,10 +58,6 @@ h1 *{
     color: whitesmoke;
 }
 
-#fasArrowDown{
-    display: none;
-}
-
 .resumo {
     width: 500px;
     padding: 20px;
@@ -133,9 +129,9 @@ main {
     transform: perspective(300);
 }
 
-#Exp {
+/* .Exp {
     display: none;
-}
+} */
 
 .dado_Exp:hover {
     /* background-color: #1D099C; */
