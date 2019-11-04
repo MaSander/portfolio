@@ -84,6 +84,22 @@ main {
 
 /* - EXPERIENCIAS ----------------------------------------------------- */
 
+h3 {
+    padding: 0 0 10px 0;
+}
+
+.forma_porcentagem *{
+    background-color: #2C2CF7;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* .porcentual{
+    height: 100%;
+    width: 30%;
+    background-color: #032B87;
+} */
+
 .div_externa_experiencia{
     /* margin: 3px; */
     transform: translateY(-28px);
@@ -128,10 +144,6 @@ main {
     transition: 0.3s;
     transform: perspective(300);
 }
-
-/* .Exp {
-    display: none;
-} */
 
 .dado_Exp:hover {
     /* background-color: #1D099C; */
